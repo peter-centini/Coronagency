@@ -1,0 +1,9 @@
+@media screen and (max-width: 767px) {
+   .container1 {
+       height: 55vh;
+   }
+   
+    .centerImg {
+        height: 60%; 
+   } 
+}

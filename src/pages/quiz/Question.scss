@@ -1,0 +1,28 @@
+:root {
+    --white-color: #e2dada;
+    --red-color: #9d0208;
+    --black-color: #3b3131;
+  }
+
+.Question {
+    margin: 20px;
+
+    .progress {
+        display: flex;
+        border: 3px solid var(--black-color);;
+        justify-content: space-around;
+        margin: 20px 0;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .reponse {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+}

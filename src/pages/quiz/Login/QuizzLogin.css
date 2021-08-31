@@ -1,0 +1,98 @@
+.connection-pseudo, .connection-mdp {
+    width: 30%;
+    min-width: 200px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signUpLoginBoxQuiz {
+    background-color: var(--red-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.valide {
+    border: 2px solid black;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: all 300ms ease-in-out;
+}
+.valide:hover {
+    transform: scale(1.1);
+}
+.signUpLoginBoxQuiz {
+    position: relative;
+    
+}
+.connection-virus {
+    height: 150px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    animation: anim-virus 10s linear normal backwards infinite;
+}
+@keyframes anim-virus {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.connection-virus-2 {
+    height: 150px;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    animation: anim-virus 10s linear reverse backwards infinite;
+}
+
+@media screen and (max-width: 767px) {
+    .slContainer{
+      display: flex;
+      justify-content: center;
+      margin-left: 20vw;
+    }
+    .valide {
+        font-size: 120%;
+        margin-right: 20vw;
+    }
+
+    .signUpLoginBoxQuiz {
+        height: 470px;
+        }
+    
+        .form {
+            height: 70vh;
+            width: 100%;
+          }
+
+          .connection-pseudo, .connection-mdp {
+            width: 100%;
+        }
+
+        .connection-virus {
+            top: 2%;
+}
+        .connection-virus-2 {
+            bottom: 2%;
+}
+}

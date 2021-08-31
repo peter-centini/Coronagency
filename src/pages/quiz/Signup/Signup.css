@@ -1,0 +1,89 @@
+:root {
+  --white-color: #e2dada;
+  --red-color: #9d0208;
+  --black-color: #3b3131;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  color: var(--white-color);
+  font-size: 1.2rem;
+  width: 130%;
+  display: block;
+  text-align: center;
+  /* border: 2px solid yellow; */
+}
+
+input {
+  height: 5vh;
+  width: 130%;
+  /* width: 150%; */
+  display: flex;
+  margin-top: 1vh;
+  background-color: var(--black-color);
+  color: #fff;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+
+.submit1 {
+  box-sizing: border-box;
+  height: auto;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  width: 150px;
+  justify-content: center;
+  position: relative;
+  left: 45px;
+}
+
+.signUpLoginBoxQuiz1 {
+  background-color: var(--red-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .form1 {
+      margin-top: 1vh;
+      height: 55vh;
+    }
+
+    input {
+      height: 4vh;
+      width: 100%;
+      margin-top: 1vh;
+      margin: 10px 0;
+      margin-right: 80px;
+    }
+
+    label {
+      width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .form1 {
+      margin-right: 50px;
+    }
+    .submit1 {
+      margin-right: 35px;
+    }
+}

@@ -1,0 +1,32 @@
+:root {
+    --main-color: #e2dada;
+    --second-color: #363636;
+    --third-color: #18dba8;
+    --fourth-color: #ff0000;
+    --white-color: #e2dada;
+     --black-color: #3b3131;
+
+    --main-font: "Roboto";
+    --second-font: "Comic Neue";
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.app {
+    background-color: #e2dada;
+    padding: 0;
+}
+body.light-mode {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color:var(--black-color);
+  color: var(--white-color);
+ transition: background-color 0.3s ease;
+
+}

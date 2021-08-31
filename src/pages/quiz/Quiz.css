@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap%27');
+
+* {
+  margin: 0;
+}
+
+:root {
+  --white-color: #e2dada;
+  --red-color: #9d0208;
+  --black-color: #3b3131;
+}
+
+* {
+  font-family: 'Roboto';
+}
+
+.quizTitle {
+  font-family: 'Comic Neue', cursive;
+  font-size: 70px;
+  color: var(--white-color);
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 6px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+h1 a {
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Bangers', cursive;
+}
+
+h1 a:hover {
+  color: inherit;
+}
+
+h2,
+h3 {
+  font-weight: normal;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bodyQuiz {
+  margin: 0;
+  padding: 0;
+  background-image: url(../../images/bg-noise-texture.png);
+  background-repeat: repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-container {
+  padding: 20px 0;
+  flex-basis: 80%;
+}
+
+.welcomePage {
+  background-color: var(--red-color);
+  background-image: url(../../images/virus.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.startingImg {
+  background-image: url(../../images/virus2.png);
+}
+
+.leftImg {
+  background-image: url(../../images/virus.png), url(../../images/masque.png);
+}
+
+.rightImg {
+  background-image: url(../../images/virus.png), url(../../images/vaccin.png);
+}
+
+.leftBox {
+  display: flex;
+  flex: 0 1 35%;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.rightBox {
+  display: flex;
+  flex: 0 1 35%;
+  align-items: flex-start;
+}
+
+.btn-welcome {
+  border: 3px solid var(--black-color);
+  /* color: var(--black-color); */
+  padding: 12px 25px;
+  border-radius: 5px;
+  /* background-color: transparent; */
+  font-weight: 600;
+  font-size: 19px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 150px;
+  color: var(--white-color);
+  background-color: var(--black-color);
+}
+
+.btn-welcome:hover {
+  border: 2px solid var(--black-color);
+  color: var(--red-color);
+  background-color: var(--black-color);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  padding: 20px 0;
+  flex: 0 1 80%;
+}
+
+.footer-container p {
+  color: var(--white-color);
+  line-height: 19px;
+  margin: 10px 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.quiz-bg {
+  margin: 0;
+  padding: 0;
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: var(--white-color);
+  padding: 30px;
+  flex: 0 1 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.signUpLoginBox {
+  background-image: url(../../images/bg-noise-texture.png);
+  background-repeat: repeat;
+  -webkit-box-shadow: inset 0px 143px 108px -18px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: inset 0px 143px 108px -18px rgba(0, 0, 0, 0.39);
+  box-shadow: inset 0px 143px 108px -18px rgba(0, 0, 0, 0.39);
+  display: flex;
+  justify-content: center;
+}
+
+.slContainer {
+  flex: 0 1 80%;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .welcomePage {
+    height: 1000px;
+    background-size: 90%;
+    background-position-y: 5vh;
+  }
+  
+  .btn-welcome { 
+    margin-top: 7vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .welcomePage {
+    height: 470px;
+    background-size: 80%;
+  background-position-y: 15vh;
+  }
+
+  .btn-welcome { 
+    margin-top: 7vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+}

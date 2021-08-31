@@ -1,0 +1,67 @@
+.containerChart {
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.card {
+    width: 70%;
+    margin-top: 5vh;
+    margin-left: 20vw;
+    padding-bottom: 3vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+.titleChartLight{
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.9em;
+    margin-top: 4vh;
+}
+
+.titleCard {
+    text-align: center;
+    padding-bottom: 2.5vh;
+    padding-top: 1vh;
+    padding-bottom: 25px;
+    margin-top: 45px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.card{
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+    width: 90%;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 5vh;
+    
+}
+
+}
+
+@media screen and (max-width: 767px) {
+ 
+.card {
+    width: 70%;
+    margin-top: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 7vh;
+}
+
+.containerChart {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 100%;
+}
+
+}

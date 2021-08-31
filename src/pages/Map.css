@@ -1,0 +1,51 @@
+.leaflet-container {
+  margin-top: 5vh;
+  margin-right: 10vw;
+  margin-bottom: 15vh;
+    width: auto;
+    height: 90vh;
+    margin-left: 20vw;
+  }
+  .rdv{
+   text-decoration-color: tomato;
+    font-size: 1.3em;
+  }
+
+.centrevacc{
+   font-style: italic;
+   width: 100%;
+   text-align: center;
+    font-size: 1.9em;
+    margin-top: 4vh;
+    text-transform: uppercase;
+}
+.Horaire{
+  display: flex;
+  margin-top: 10px;
+}
+
+   .ville{
+     display: flex;
+     justify-content: flex-start;
+    font-size: 1.6em;
+    font-style: italic;
+    font-family: var(--main-font,--second-font);
+    background-color : #86e682;  
+   }
+  .leaflet-popup-content-wrapper{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .map-container {
+      height: 75vh;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+
+    .map-container {
+      height: 75vh;
+    }
+
+}
