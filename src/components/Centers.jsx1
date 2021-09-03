@@ -10,4 +10,4 @@ function Centers() {
     )
 }
 
-export default Centers
+export default Centersq
