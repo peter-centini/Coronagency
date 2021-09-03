@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import "./Navbar.css"
+import DarkModeToggle from './DarkModeToggle'
 import Darkmod from './Darkmod'
 import image from "../images/iconinfo.png"
 import image2 from "../images/icongraph.png"

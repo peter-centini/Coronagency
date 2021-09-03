@@ -7,7 +7,7 @@
     text-transform: uppercase;
     flex-direction: row;
     font-size: 1.9em;
-    padding-left: 135px;
+    padding-left: 45px;
 }
 
 .title-container{
@@ -22,7 +22,7 @@
 
 .container-2{
     margin-left: 15vw;
-    margin-right: 15vw;
+    margin-right: 13vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -33,12 +33,11 @@
     font-family: var(--second-font);
     line-height: 45px;
     font-size: 1.3em;
-    text-align: center;
 }
 
 .picture{
     margin-top: 4vh;
-    margin-left: 25vw;
+    margin-left: 22vw;
     display: flex;
     flex-direction: row;
     align-content: space-around;
@@ -47,7 +46,6 @@
 .covid{
     height: auto;
     width: auto;
-    
 }
 .covid2{
     height: auto;

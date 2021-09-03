@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.00f04d33.chunk.css",
+    "main.js": "/static/js/main.5c370f70.chunk.js",
+    "main.js.map": "/static/js/main.5c370f70.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5c0c2d33.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5c0c2d33.js.map",
+    "static/js/2.d261ef0a.chunk.js": "/static/js/2.d261ef0a.chunk.js",
+    "static/js/2.d261ef0a.chunk.js.map": "/static/js/2.d261ef0a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.00f04d33.chunk.css.map": "/static/css/main.00f04d33.chunk.css.map",
+    "static/js/2.d261ef0a.chunk.js.LICENSE.txt": "/static/js/2.d261ef0a.chunk.js.LICENSE.txt",
+    "static/media/Quiz.css": "/static/media/virus2.0cbc4a7b.png",
+    "static/media/covid.79505133.png": "/static/media/covid.79505133.png",
+    "static/media/covid2.a7a6cc9d.png": "/static/media/covid2.a7a6cc9d.png",
+    "static/media/skull.1a576fe1.png": "/static/media/skull.1a576fe1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c0c2d33.js",
+    "static/js/2.d261ef0a.chunk.js",
+    "static/css/main.00f04d33.chunk.css",
+    "static/js/main.5c370f70.chunk.js"
+  ]
+}
